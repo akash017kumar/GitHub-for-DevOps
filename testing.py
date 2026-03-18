@@ -1,8 +1,19 @@
+"""
+testing.py
+
+This module demonstrates a simple greeting function.
+"""
+
+
 def hello():
     """
-    This is just a demo '
+    Returns a greeting message.
+
+    Returns:
+        str: Greeting string
     """
     return "Hello Dosto, Kya haal chaal"
 
 
-hello()
+if __name__ == "__main__":
+    print(hello())
